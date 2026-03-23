@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DBContext {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/Hospital_DB";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "123456";
+    private static final String DB_PASSWORD = "250906";
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 
     public static Connection getConnection() throws Exception {
